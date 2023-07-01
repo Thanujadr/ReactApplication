@@ -175,7 +175,7 @@ height: 35px;
 /* ----------------------------dogdetails page------------------------------------- */
 .dogdetails{
   background-color: black;
-  height: 100vh;
+  height: 100%;
   display: flex;
   justify-content: space-around;
   padding-top: 100px;
@@ -189,4 +189,62 @@ height: 35px;
 .details h2,h3,h4,p{
   color: white;
   line-height: 30px;
+}
+
+@media (max-width:413px) {
+  
+  #signup{
+    width: 300px;
+   
+  }
+  #signup h2{
+    
+    font-size: 20px;
+  }
+  #signup input{
+    height: 30px;
+    font-size: 12px;
+  }
+  
+  #sub{
+  font-size: 16px;
+  }
+
+  /* ----------login---------- */
+  #login{
+   
+    width: 300px;
+  }
+  #login h1{
+    font-size: 25px;
+  }
+  #login input{
+    height: 30px;
+  }
+  
+  #login button{
+    
+    height: 30px; 
+  }
+  
+  #login span{
+   
+    font-size: 14px;
+  }
+  /* ----------dogdetails---------- */
+
+  .dogdetails{
+    
+    display: grid;
+   
+  }
+  .images img{
+    height: 300px;
+    width: 250px;
+   margin-bottom: 15px;
+  }
+  .details h2,h3,h4,p{
+    color: white;
+    line-height: 30px;
+  }
 }
